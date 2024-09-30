@@ -1,0 +1,18 @@
+.card {
+    background-color: skyblue;
+    border: solid 1px skyblue;
+}
+
+.card-header {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.card-body {
+    .tempContainer {
+        display: flex;
+        font-size: 30px;
+        justify-content: center;
+    }
+}
