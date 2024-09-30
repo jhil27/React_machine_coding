@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  border: 1px solid black;
+  width: 300px;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.taskContainer {
+  margin: 10px;
+
+  .listContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    max-height: 50px;
+    align-items: center;
+
+    .list-item {
+      flex: 1;
+    }
+
+    .buttonContainer {
+      display: flex;
+      justify-content: space-between;
+
+    }
+  }
+
+  .cut-text {
+    text-decoration: line-through;
+    /* Adds a line through the text */
+    color: gray;
+    /* Optional: Change the color to indicate it's cut */
+    
+  }
+
+  .normal-text {
+    text-decoration: none;
+    color: black;
+    
+  }
+}
+
+.btn {
+  height: 28px;
+}
+
+.btn-default {
+  background-color: blue;
+  color: white;
+}
+
+.btn-warning {
+  background-color: red;
+  color: white;
+}
