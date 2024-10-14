@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.loginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  width: 600px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.inputbox {
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.submit-btn {
+  background-color: #422fb7;
+  padding: 10px;
+  color: #fff;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
