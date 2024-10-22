@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.modal-shadow {
+  height: 100vh;
+  background-color: #00000000;
+  position: relative;
+
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+
+    .modal-content {
+      min-width: 500px;
+      min-height: 500px;
+      .modal-content--header{
+        /* min-width: 500px; */
+      }
+    }
+  }
+
+}

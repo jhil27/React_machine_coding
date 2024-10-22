@@ -4,10 +4,12 @@ import { useState, useEffect } from 'react'
 function App() {
   const [counter, setCounter] = useState(60);
   const [start, setStart] = useState(false);
+
   const toggle = () => {
-    if (counter === 0) setCounter(60);
+    if (counter === 0 || counter > 0) setCounter(60);
     setStart((prevState) => !prevState);
   };
+
   useEffect(() => {
     let timer = null;
     if (start && counter > 0) {
@@ -20,6 +22,8 @@ function App() {
     return () => clearInterval(timer)
 
   }, [start, counter])
+
+  
   return (
     <div className="App">
       <div className='clock'>
